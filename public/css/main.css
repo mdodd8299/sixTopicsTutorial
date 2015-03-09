@@ -1,0 +1,209 @@
+/* General CSS for page */
+body {
+    background-color: lightblue;
+    font-family: "Times New Roman";
+    font-size: 17px;
+    color: black;
+}
+
+/* Main Page Image, 2nd ID used to center, 3rd + 4th Topics and Summary for main Page */
+#mainPageImage {
+    height: 300px;
+    border: solid black 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#mainPageImage2 {
+    text-align: center;
+}
+
+#subTitle {
+    text-align: center;
+    font-size: 35px;
+}
+
+.topic {
+    text-align: center;
+    color: darkgreen;
+    font-size: 24px;
+    margin: 5px;
+    font-family: "Times New Roman";
+}
+
+.sum {
+    text-align: center;
+    font-family: "Times New Roman ";
+}
+
+/* CSS used for Table Example */
+td, th {
+    border: solid black 3px;
+    padding: 2px;
+}
+
+table {
+    border: solid green 2px;
+}
+
+/* Main Title for tutorial pages, followed by different universal sections for pages*/
+.mainTitle {
+    position: relative;
+    text-align: center;
+    font-family: "Times New Roman";
+    font-size: 60px;
+}
+
+.sumPara {
+    margin: 5px;
+    margin-left: 300px;
+    position: fixed;
+}
+
+#example {
+    position: fixed;
+    top: 167px;
+    left: 315px;
+    width: 390px;
+}
+
+    #PMExample {
+        position: fixed;
+        top: 167px;
+        left: 315px;
+        width: 250px;
+        margin: 20px;
+        border: dashed orange 2px;
+        padding: 20px;
+    }
+
+#code2 {
+    position: fixed;
+    width: 500px;
+    top: 120px;
+    left: 750px;
+}
+
+#code {
+
+}
+
+#sumPara2 {
+    position: fixed;
+    top: 450px;
+    margin-left: 300px;
+}
+
+/* Menu */
+.menuList {
+    position: fixed;
+}
+
+.menuPoints {
+    color: black;
+    border: solid orange 2px;
+    margin: 10px;
+    padding: 5px;
+    font-size: 20px;
+    width: 200px;
+    background: lightgoldenrodyellow;
+    border-right: solid black 10px;
+    transition: border .5s;
+}
+.menuPoints:hover {
+    border: solid orange 5px;
+    border-right: solid black 15px;
+}
+/* Example Box */
+.exampleBox {
+    position: fixed;
+    top: 160px;
+    margin-left: 300px;
+    background-color: white;
+    border: solid black 3px;
+    color: white;
+    width: 400px;
+    height: 250px;
+}
+
+.exampleTitle {
+    position: fixed;
+    top: 135px;
+    margin-left: 300px;
+    font-size: 20px;
+
+}
+
+/* Special Cases for Semantic Structure */
+.exampleBox2 {
+    position: fixed;
+    top: 160px;
+    margin-left: 300px;
+    background-color: white;
+    border: solid black 3px;
+    color: white;
+    width: 400px;
+    height: 320px;
+}
+
+.SSS {
+    padding: 2px;
+}
+
+    #TBox {
+        position: fixed;
+        text-align: center;
+        border: solid black 2px;
+        margin: 10px;
+        font-size: 20px;
+        width: 100px;
+        height: 100px;
+        background: indianred;
+        top: 167px;
+        left: 315px;
+        transition: background 2s, height 3s, width 3s, transform 3s;
+    }
+
+    #TBox:hover {
+        background: green;
+        height: 200px;
+        width: 200px;
+        transform: rotate(360deg);
+    }
+
+#TBox:active {
+    background: orange;
+
+}
+
+    #PCBox {
+        text-align: center;
+        border: solid black 2px;
+        margin: 3px;
+        font-size: 20px;
+        width: 150px;
+        background: lightcoral;
+    }
+    #PCBox:hover {
+        background: cyan;
+        border: dashed black 2px;
+    }
+    input:focus {
+        background-color: yellow;
+    }
+    :target {
+        border: lightgray solid 2px;
+        background-color: lightgreen;
+    }
+
+.exampleBox3 {
+    position: fixed;
+    top: 160px;
+    margin-left: 300px;
+    background-color: white;
+    border: solid black 3px;
+    color: white;
+    width: 400px;
+    height: 260px;
+}
+
